@@ -1,0 +1,33 @@
+<div>
+	<div>
+		<h3>Login</h3>
+	</div>
+	{% if error_message %}
+		<p><strong>{{ error_message }}</p></strong>
+	{% endif %}
+	<form role="form" action="{% url 'login:login' %}" method="post" enctype="multipart/form-data">
+		{% csrf_token %}
+		<div>
+			<label for="id_username">
+				Username
+			</label>
+		</div>
+		<div>
+			<input id="id_username" maxlength="30" name="username" type="text" />
+		</div>
+		<div>
+			<label for="id_password">
+				Password
+			</label>
+			<div>
+				<input id="id_password" name="password" type="password" />
+			</div>
+		</div>
+		<div>
+			<button type="submit">Submit</button>
+		</div>
+	</form>
+	<div>
+		Don't have an account? <a href="{% url 'login:regist' %}">Click here</a>to regist
+	</div>
+</div>

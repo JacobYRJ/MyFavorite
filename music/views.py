@@ -1,7 +1,8 @@
 from django.shortcuts import render
 from django.views import generic
+from django.contrib.auth.models import User
 
-
-class IndexView(generic.ListView):
-	template_name = 'polls/index.html'
+def index(request):
+	username = request.POST.get('username')
+	return render(request, 'music/index.html', {'username': username})
 	
