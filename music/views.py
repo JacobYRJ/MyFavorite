@@ -1,8 +1,13 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.views import generic
 from django.contrib.auth.models import User
+import login
+
+
 
 def index(request):
-	username = request.POST.get('username')
-	return render(request, 'music/index.html', {'username': username})
-	
+	if not request.user.is_authenticated():
+		return redirect('login:login')
+	else:
+		
+		return render(request, 'music/index.html')

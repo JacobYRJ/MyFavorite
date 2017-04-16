@@ -7,7 +7,11 @@ import music
 
 
 def index(request):
-	return redirect('music:index')
+	if not request.user.is_authenticated():
+		return redirect('login:login')
+	else:
+		return redirect('music:index')
+	
 	
 	
 class UserFormView(View):
@@ -40,15 +44,18 @@ class UserFormView(View):
 		
 		
 def user_login(request):
-	username = request.POST.get('username')
-	password = request.POST.get('password')
-	user = authenticate(username=username, password=password)
-	if user is not None:
-		login(request, user)
-		return redirect('login:index')
-	else:
-		return render(request, 'login/login.html', {'error_message': 'You have an error'})
+	if request.method == "POST":
+		username = request.POST['username']
+		password = request.POST['password']
+		user = authenticate(username=username, password=password)
+		if user is not None:
+			login(request, user)
+			return redirect('login:index')
+		else:
+			return render(request, 'login/login.html', {'error_message': 'You have an error'})
+		return render(request, 'login/login.html')
 	return render(request, 'login/login.html')
+
 
 def user_logout(request):
 	logout(request)
