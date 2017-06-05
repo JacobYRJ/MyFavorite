@@ -1,0 +1,363 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mi",
+				"minlength\tAttr"
+			],
+			[
+				"max",
+				"maxlength\tAttr"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"time",
+				"timedelta\tclass"
+			],
+			[
+				"select",
+				"selected_choice\tstatement"
+			],
+			[
+				"selec",
+				"selected_choice\tstatement"
+			],
+			[
+				"Choice",
+				"ChoiceInline"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 184.0,
+		"last_filter": "packi",
+		"selected_items":
+		[
+			[
+				"packi",
+				"Package Control: Install Package"
+			],
+			[
+				"Django:r",
+				"Django: Run Server"
+			],
+			[
+				"Django:se",
+				"Django: Set Virtual Environment"
+			],
+			[
+				"pai",
+				"Package Control: Install Package"
+			],
+			[
+				"Django:",
+				"Django: Help"
+			],
+			[
+				"Django:set",
+				"Django: Set Virtual Environment"
+			],
+			[
+				"pack i",
+				"Package Control: Install Package"
+			],
+			[
+				"pack r",
+				"Package Control: Remove Package"
+			],
+			[
+				"pi",
+				"Package Control: Install Package"
+			],
+			[
+				"djangose",
+				"Django: Set Virtual Environment"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				":tag",
+				"View: Toggle Side Bar"
+			],
+			[
+				":",
+				"View: Toggle Side Bar"
+			],
+			[
+				":vs",
+				"Anaconda: Vagrant Status"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"disab",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"anaconda",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"disable",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"package Control: install Package",
+				"Package Control: Install Package"
+			],
+			[
+				"view",
+				"View: Toggle Minimap"
+			],
+			[
+				"voe",
+				"View: Toggle Menu"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 440.0
+	},
+	"console":
+	{
+		"height": 254.0,
+		"history":
+		[
+			"sys.path",
+			"import sys",
+			"import django",
+			"python",
+			"import socket; socket.socket(socket.AF_INET, socket.SOCK_STREAM).connect((\"localhost\", 54804))",
+			"print(sys.path)",
+			"import sys",
+			"tag",
+			"package Control",
+			"install",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/Work/MyFavorite/DjangoCommands.sublime-settings",
+		"/D/Work/MyFavorite/music/templates/music/index.html",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements/Default (Windows).sublime-keymap",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/SublimeREPL.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/D/Work/MyFavorite/login/views.py",
+		"/D/Work/MyFavorite/music/models.py",
+		"/D/Work/MyFavorite/login/models.py",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/SublimeCodeIntel/Default (Windows).sublime-keymap",
+		"/D/Work/MyFavorite/login/apps.py",
+		"/D/Work/MyFavorite/login/templates/login/login.html",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Djaneiro/Settings/Python (Django).sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Python (Django).sublime-settings",
+		"/D/Work/polls/polls/views(notgeneric).py",
+		"/D/Work/polls/mysite/settings.py",
+		"/D/Work/polls/polls/views.py",
+		"/D/Work/polls/polls/urls.py",
+		"/D/Work/polls/polls/templates",
+		"/D/Work/polls/polls/templates/polls/results.html",
+		"/D/Work/polls/polls/models.py",
+		"/F/2345下载/CalcActivationCode.py",
+		"/D/Work/polls/polls/admin.py",
+		"/D/Work/polls/polls/tests.py",
+		"/D/Work/polls/mysite/urls.py",
+		"/D/Work/polls/polls/urls(notgeneric).py",
+		"/D/Work/polls/polls/templates/polls/index.html",
+		"/D/Work/bootstrap.html",
+		"/D/Work/polls/polls/templates/index.html",
+		"/D/Work/polls/polls/apps.py",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Anaconda/Default (Windows).sublime-keymap",
+		"/D/Work/Polls/mysite/polls/models.py",
+		"/D/Work/Polls/mysite/polls/views.py",
+		"/D/Work/Polls/mysite/mysite/settings.py",
+		"/F/Movies/R/s244.mp4",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/JSON.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Anaconda/README.md",
+		"/D/Work/Django-/mysite/settings.pyc",
+		"/D/Work/mysite/mysite/settings.py",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Anaconda/LICENSE"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"class"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python 3/Python3.sublime-build",
+	"project": "DjangoCommands.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 184.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"PollsConfig"
+			]
+		],
+		"width": 400.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 172.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
