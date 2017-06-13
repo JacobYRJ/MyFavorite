@@ -51,7 +51,7 @@ def user_login(request):
             login(request, user)
             return redirect('login:index')
         else:
-            return render(request, 'login/login.html', {'error_message': 'You have an error'})
+            return render(request, 'login/login.html', {'error_message': '哎呀,出错了,是用户名或者密码输错了吗？'})
         return render(request, 'login/login.html')
     return render(request, 'login/login.html')
 

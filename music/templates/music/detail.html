@@ -6,13 +6,34 @@
             <tr>
                 <th>Title</th>
                 <th>Favorite</th>
+                <th>Play</th>
+                <th>Delete</th>
 
             </tr>
         </thead>
-        {% for songs in song %}
+        {% for songs in song%}
             <tr>
                 <td>{{ songs.name }}</td>
+                <td>
+                    <a href="{% url 'music:favorite' songs.id %}" class="btn btn-default btn-sm btn-favorite" role="button">
+                            <span class="glyphicon glyphicon-star {% if success %}active{% endif %}"></span>
+                    </a>
+                </td>
+                <td>
+                    <a target="_blank" href="{{ song.music.url }}">
+                        <button type="button" class="btn btn-success btn-xs">
+                            <span class="glyphicon glyphicon-play"></span>&nbsp; Play
+                        </button>
+                    </a>
+                </td>
+                <td>
+                    <a href="{% url 'music:delete_song' songs.id %}" role="button">
+                        <span class="glyphicon glyphicon-minus" aria-hidden="true" style="color: red;"></span>
+                    </a>
+                </td>
+                </td>
             </tr>
+
 
         {% endfor %}
     </table>

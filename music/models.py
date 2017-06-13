@@ -12,6 +12,7 @@ class Song(models.Model):
     style = models.CharField(max_length=50)
     cover = models.ImageField(upload_to='img', null=True)
     favorite = models.BooleanField(default=False)
+    music  = models.FileField(upload_to='music', null=True)
     objects = SongFavorite()
 
     def __str__(self):
