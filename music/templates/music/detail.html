@@ -15,9 +15,15 @@
             <tr>
                 <td>{{ songs.name }}</td>
                 <td>
-                    <a href="{% url 'music:favorite' songs.id %}" class="btn btn-default btn-sm btn-favorite" role="button">
-                            <span class="glyphicon glyphicon-star {% if success %}active{% endif %}"></span>
-                    </a>
+                    {% if songs.favorite %}
+                        <a href="{% url 'music:favorite' songs.id %}" class="btn btn-default btn-sm btn-favorite" role="button">
+                                <span class="glyphicon glyphicon-heart" aria-hidden="true" style="color:red"></span>
+                        </a>
+                    {% else %}
+                        <a href="{% url 'music:favorite' songs.id %}" class="btn btn-default btn-sm btn-favorite" role="button">
+                                <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+                        </a>
+                    {% endif %}
                 </td>
                 <td>
                     <a target="_blank" href="{{ song.music.url }}">
